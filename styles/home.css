@@ -1,0 +1,27 @@
+body{
+    background-image: url('../files/mountain2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundimage{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.container{
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 800px;
+}
+
+.text{
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+}

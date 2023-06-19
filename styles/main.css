@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+#F1F1F2 overcast
+#BCBABE warm gray
+#A1D6E2 ice
+#1995AD glaciar blue
+
+#2a4d69
+#63ace5
+#e7eff6
+
+#FF5F1F neon orange
+#1E1C1C black
+#F9F6EE bone white
+#2f2c79 azul oscuro
+
+*/
+
+  body{
+    background-color: #1E1C1C;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #actividad{
+    background-image: url('../files/mountain1.png');
+  }
+
+  #creatividad{
+    background-image: url('../files/mountain2.png');
+  }
+
+  #servicio{
+    background-image: url('../files/mountain3.png');
+  }
+
+  nav{
+    background-color: #F9F6EE;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #2f2c79;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  li a:hover {
+    background-color: #1E1C1C;
+    color: #F9F6EE;
+    transition: 0.3s;
+  }
+
+  .logo{
+    float: right;
+    display: block;
+    color: #2f2c79;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  .smallquestion{
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+  }
+
+  .answer{
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+  }
+
+  .diary{
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 800px;
+  }
+
+  #anounce{
+    font-size: 69px;
+  }
